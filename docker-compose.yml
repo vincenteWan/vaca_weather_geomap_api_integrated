@@ -1,0 +1,7 @@
+services:
+  vaca-app:
+    build: .
+    ports:
+      - "3000:80"
+    container_name: hci-vaca-app
+    restart: unless-stopped
